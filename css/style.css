@@ -1,1 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Oswald:wght@200&family=Outfit:wght@200;300;400&display=swap");
 
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  overflow: hidden;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+.container-wrapp {
+  border-radius: 1em;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+figure {
+  margin: 1em 1em 0 1em;
+}
+figure > img {
+  width: 100%;
+}
+section {
+  padding: 1em;
+}
+section > h2 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 0;
+}
+section > p {
+  font-weight: 400;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 375px) {
+  .container-wrapp {
+    width: 60%;
+    overflow: hidden;
+  }
+  main {
+    overflow: hidden !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container-wrapp {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+}
