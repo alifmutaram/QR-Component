@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![](./images/screencapture-file-C-Users-alifm-Downloads-qrcodecomp-index-html-2023-08-11-09_47_43.png)
+![](./images/ss-qr.png)
 
 ## My process
 
